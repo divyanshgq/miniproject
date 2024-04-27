@@ -46,3 +46,13 @@ print("Number of votes for bjp: ",countb)
 print("Number of votes for congress: ",countc)
 print("Number of votes for aap: ",counta)
 print("Number of votes for tmc: ",countt)
+if countb>countc and countb>counta and countb>countt:
+    print("BJP won the election")
+elif countc>countb and countc>counta and countc>countt:
+    print("Congress won the election")
+elif counta>countb and counta>countc and counta>countt:
+    print("AAP won the election")
+elif countt>countb and countt>counta and countt>countc:
+    print("TMC won the election")
+else:
+    print("none won the elecytion")
